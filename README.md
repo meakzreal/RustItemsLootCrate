@@ -2,17 +2,7 @@
 
 A small Python project that generates random loot from crates. Built to practise Python's `random` module and experiment with configurable loot systems.
 
-## ⚙️ Features
-
-- Random item generation.
-- Configurable crate settings.
-- Option to allow or prevent duplicate items.
-- Adjustable loot amount.
-- Customisable crate name.
-- Easily editable item list.
-
 ## 🔧 Configuration
-
 You can customise the crate by changing the settings at the top of the script.
 
 | Setting | Description |
