@@ -1,34 +1,40 @@
-# 🎁 Loot Generator
+# 🎁 Rust Items Loot Crate
 
-A small Python project that generates random loot from crates. Built to practise Python's `random` module and experiment with configurable loot systems.
+A little Python project where you can open a Rust-inspired loot crate and see what items you get.
 
-## 🔧 Configuration
-You can customise the crate by changing the settings at the top of the script In Config!.
+I made this to practise using Python's `random` module, working with multiple Python files and adding `.wav` sound effects to make the crate opening feel more realistic.
 
-| Setting | Description |
-|---|---|
-| `max_number` | Highest item number available. |
-| `low_number` | Lowest item number available. |
-| `duplicate_items` | Allows or prevents duplicate loot. |
-| `loot_amount` | Controls how many items are generated. |
-| `Small_Crate_Name` | Sets the crate's displayed name. |
+## What it does
+- Opens a Small Crate and generates random loot.
+- Shows 5 loot selections with short delays between them.
+- Plays a sound effect when opening the crate.
+- Has a config file where you can change the crate settings and items.
+- Lets you choose whether duplicate items are allowed.
 
-## 📦 Loot Pool
-- Scrap
-- Pistol
-- Rope
-- Hatchet
-- Tarp
-- Spear
-- Nail Gun
-- Land Mine
-- Chair
-- Fridge
-- Hazmat Suit
-- Revolver
-- Gears
+## Configuration
+
+You can change the settings inside `Config.py`, including the crate name, loot amount and duplicate settings.
+
+## Files
+- `main.py` – Main menu.
+- `Config.py` – Settings and loot pool.
+- `SmallCrateScript.py` – Crate opening sequence.
+- `SmallCrate.wav` – Opening sound effect.
+
+## Requirements
+
+```bash
+pip install pygame
+```
+
+Run using:
+
+```bash
+python main.py
+```
 
 ## Author
+
 **Meakz**
 
-A small project made as part of my Python learning journey.
+Python project – Version 1.0
