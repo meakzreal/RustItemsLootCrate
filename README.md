@@ -3,7 +3,7 @@
 A small Python project that generates random loot from crates. Built to practise Python's `random` module and experiment with configurable loot systems.
 
 ## 🔧 Configuration
-You can customise the crate by changing the settings at the top of the script.
+You can customise the crate by changing the settings at the top of the script In Config!.
 
 | Setting | Description |
 |---|---|
