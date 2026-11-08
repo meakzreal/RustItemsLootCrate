@@ -13,8 +13,7 @@ You can customise the crate by changing the settings at the top of the script In
 | `loot_amount` | Controls how many items are generated. |
 | `Small_Crate_Name` | Sets the crate's displayed name. |
 
-## 📦 Current Loot Pool
-
+## 📦 Loot Pool
 - Scrap
 - Pistol
 - Rope
@@ -29,13 +28,7 @@ You can customise the crate by changing the settings at the top of the script In
 - Revolver
 - Gears
 
-## 🛠️ Requirements
-
-- Python 3.x
-- Random module (built into Python)
-
-## 👤 Author
-
+## Author
 **Meakz**
 
 A small project made as part of my Python learning journey.
